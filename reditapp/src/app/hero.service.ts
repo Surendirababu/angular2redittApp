@@ -11,7 +11,9 @@ import 'rxjs/add/operator/map';
 export class HeroService
 {
 
-  private _URLVal:string ="resources/vendor/heroes.json";
+  private _URLVal:string ="http://localhost:8080/palyers/details/json";
+
+  private _URLLocalVal:string ="/resources/vendor/heroes.json";
 
  constructor(private _http: Http) 
  {
